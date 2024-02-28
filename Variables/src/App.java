@@ -1,4 +1,4 @@
-public class Main {
+public class App {
     public static void main(String[] args) throws Exception {
         /*  There are eight primitive data types in Java, an only one reference type defined by Java:
                 Data Type	Size        Description

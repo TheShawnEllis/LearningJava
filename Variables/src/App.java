@@ -42,5 +42,18 @@ public class App {
         String myName = "Coding Guy";
 
         System.out.println("Hello, " + myName);
+
+        // Use comma-seperated list to initiilze multiple variables of the same type
+        int x1 = 4, y = 21, myNewInt = 2005;
+        System.out.println("Sum of multi variable line: "  + (x1 + y + myNewInt));
+
+        // Assigning miltiple variables with the same value
+        int d, f, g;
+        d = f = g = 100;
+        System.out.println(d + f + g);
+
+        // Scientific Numbers can be represented using an 'e'
+        float f1 = 35e13f;
+        double distanceToSun = 1.5e11d;
     }
 }

@@ -26,5 +26,16 @@ public class App {
         {
             System.out.println("Value2 is bigger");
         }
+
+        // if-else-if 
+        if (value1 > value2) 
+        {
+            System.out.println("value1 bigger");
+        }
+        else if (value1 < value2)
+        {
+            System.out.println("value2 is bigger");
+        }
+        else System.out.println("Both are equal");
     }
 }

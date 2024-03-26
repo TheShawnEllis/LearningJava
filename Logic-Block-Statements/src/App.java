@@ -37,5 +37,10 @@ public class App {
             System.out.println("value2 is bigger");
         }
         else System.out.println("Both are equal");
+
+
+        ////// Switch Statements //////
+        // Can only be used with byte short int long and char
+        
     }
 }

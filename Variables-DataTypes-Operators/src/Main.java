@@ -55,12 +55,29 @@ public class Main {
         int valA = 21;
         int valB = 6; 
         int valC = 3;
-        int valD = 1;
 
         int result1 = valA - valB / valC;
         int result2 = (valA - valB) / valC;
 
         System.out.println(result1);
         System.out.println(result2);
+
+        //////  Type Conversion
+        float floatVal = 1.0f; 
+        double doubleVal = 4.0d;
+        byte byteVal = 7;
+        short shortVal = 7;
+        long longVal = 5;
+        
+        // Implicit type conversion - automatically performed by the compiler
+        short convertResult1 = byteVal; // Widening conversions work with no issue
+            //short convertResult2 = longVal; // Shortening conversions will fail    
+
+        // Explicit conversion - performed in code using cast operator
+        short convertResult2 = (short)longVal; // Cast must be used to shorten a conversion
+        short convertResult3 = (short) (byteVal - longVal);
+        float result3 = longVal - floatVal;
+
+        System.out.println("success");
     }
 }

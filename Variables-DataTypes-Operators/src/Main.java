@@ -79,5 +79,13 @@ public class Main {
         float result3 = longVal - floatVal;
 
         System.out.println("success");
+
+
+        ////// Infering Variable Types
+        // Var keyword is used to infer the type based on the value assigned
+        // Var must be initialized
+        int v1 = 50;
+        var v2 = 50;
+        var myVale = 100.0;
     }
 }

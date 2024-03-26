@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Expressions/Expressions.iml" filepath="$PROJECT_DIR$/Expressions/Expressions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/LearningJava.iml" filepath="$PROJECT_DIR$/.idea/LearningJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Swap_Two_Variables/Swap_Two_Variables.iml" filepath="$PROJECT_DIR$/Swap_Two_Variables/Swap_Two_Variables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Type_Casting/Type_Casting.iml" filepath="$PROJECT_DIR$/Type_Casting/Type_Casting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/User_Input/User_Input.iml" filepath="$PROJECT_DIR$/User_Input/User_Input.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Variables/Variables.iml" filepath="$PROJECT_DIR$/Variables/Variables.iml" />
+    </modules>
+  </component>
+</project>

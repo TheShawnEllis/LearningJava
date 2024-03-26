@@ -27,7 +27,7 @@ public class Main {
         float myfloat = 42.195f; // Must use "f" for the floating literal
         double myDouble = -213.70708089689d; // Must use "d" for the double literal
         char myChar = 'D'; // Char types must be in single quotes. 
-        char myUnicodeChar = '\u00DA'; // Char types can represent a unicode character by using \u followed by 4-digit hex value
+        char myUnicodeChar = '\u00DA'; // Char types can represent a unicode character by using backslash u followed by 4-digit hex value
         boolean myBool = true; // Only uses true or false keywords
 
         //////      Arithmetic Operators
@@ -45,9 +45,22 @@ public class Main {
         
         // Compound Operators - performs and assign to the variable on the left (+= -= *= /= %=)
         int myValue = 50;
-        myvalue -= 5;
+        myValue += 13;
         System.out.println(myValue);
 
         // Operator Precedence
+            // Operators are evaluated left to right 
+            // Operations insid () take precedence
+            // Operators in () are evaluated inside to out
+        int valA = 21;
+        int valB = 6; 
+        int valC = 3;
+        int valD = 1;
+
+        int result1 = valA - valB / valC;
+        int result2 = (valA - valB) / valC;
+
+        System.out.println(result1);
+        System.out.println(result2);
     }
 }

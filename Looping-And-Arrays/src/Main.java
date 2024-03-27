@@ -25,12 +25,27 @@ public class Main
         }while(iVal < 25);
 
         ////// For Loop //////
-        // Condition is checked at loop start and runs specified amount of instance
+        // Condition is checked at loop start and used when known how many times to run
         // For loops need an initializer, condition, and counter
         for(int i = 0; i < 10; i++)
         {
             System.out.println(i);
         }
 
+        ////// Array //////
+        // Arras are a collection of same types, elements can be access by an index starting with 0
+        float[] theVals = new float[5];
+        for(int a = 0; a < theVals.length; a++)
+        {
+            theVals[a] = a;
+            System.out.println(theVals[a]);
+        }
+
+        // for-each loop
+        // Loops through all elements in an array or collection
+        for(float curFloat : theVals)
+        {
+            System.out.println(curFloat);
+        }
     }
 }

@@ -16,7 +16,8 @@ public class Main
         ////// Do-While Loop //////
         // Checked at the end of the loop and will always run once.
         int iVal = 5;
-        do {
+        do
+        {
             System.out.print(iVal);
             System.out.println(" * 2 = ");
             iVal *= 2;
@@ -24,7 +25,12 @@ public class Main
         }while(iVal < 25);
 
         ////// For Loop //////
-        // Condition is checked at loop start
+        // Condition is checked at loop start and runs specified amount of instance
+        // For loops need an initializer, condition, and counter
+        for(int i = 0; i < 10; i++)
+        {
+            System.out.println(i);
+        }
 
     }
 }

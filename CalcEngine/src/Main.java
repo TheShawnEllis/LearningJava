@@ -9,29 +9,36 @@ public class Main
 
         for(int i = 0; i < opCodes.length; i++)
         {
-            switch(opCodes[i])
-            {
-                case 'a':
-                    results[i] = leftVals[i] + rightVals[i];
-                    break;
-                case 's':
-                    results[i] = leftVals[i] - rightVals[i];
-                    break;
-                case 'm':
-                    results[i] = leftVals[i] * rightVals[i];
-                    break;
-                case 'd':
-                    results[i] = (rightVals[i] != 0) ? leftVals[i] / rightVals[i]: 0.0d;
-                    break;
-                default:
-                    System.out.println("Invalid opCode: " + opCodes[i]);
-                    results[i] = 0.0d;
-                break;
-            }
-    
+            results[i] = execute(opCodes[i], leftVals[i], rightVals[i]);
         }
             
         for(double answer : results)
             System.out.println(answer);
+    }
+
+    static double execute(char opCode, double leftVal, double rightVal)
+    {
+        double result;
+
+        switch(opCode)
+        {
+            case 'a':
+                result = leftVal + rightVal;
+                break;
+            case 's':
+                result = leftVal - rightVal;
+                break;
+            case 'm':
+                result = leftVal * rightVal;
+                break;
+            case 'd':
+                result = (rightVal != 0) ? leftVal / rightVal : 0.0d;
+                break;
+            default:
+                System.out.println("Invalid opCode: " + opCode);
+                result = 0.0d;
+            break;
+        }    
+        return result;
     }
 }

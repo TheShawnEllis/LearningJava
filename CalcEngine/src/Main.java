@@ -24,7 +24,8 @@ public class Main
         
     }
 
-    private static void handleCommandLine(String[] args) {
+    private static void handleCommandLine(String[] args) 
+    {
         char opCode = args[0].charAt(0);
         double leftVal = Double.parseDouble(args[1]);
         double rightVal = Double.parseDouble(args[2]);
